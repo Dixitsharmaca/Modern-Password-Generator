@@ -12,8 +12,10 @@ import {
   Slider,
   Grow,
   Box,
+  IconButton,
 } from '@mui/material';
 import zxcvbn from 'zxcvbn';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './style.css';
 
 function PasswordGenerator() {
@@ -49,7 +51,7 @@ function PasswordGenerator() {
       newPassword += selectedCharset[randomCharIndex];
     }
 
-    setPassword(userText + newPassword); // Swap positions of userText and newPassword
+    setPassword(userText + newPassword);
 
     const result = zxcvbn(newPassword);
     setTimeToCrack(result.crack_times_display.offline_slow_hashing_1e4_per_second);
@@ -82,14 +84,13 @@ function PasswordGenerator() {
             </Typography>
             <Grid container spacing={2}>
               <Grid item xs={12}>
-              <TextField
+                <TextField
                   label="Add a custom phrase (optional)"
                   fullWidth
                   value={userText}
                   onChange={(e) => setUserText(e.target.value)}
                   variant="outlined"
                 />
-
               </Grid>
               <Grid item xs={12}>
                 <Typography id="password-length-slider" gutterBottom style={{ color: '#28A745' }}>
@@ -174,6 +175,20 @@ function PasswordGenerator() {
               </Grid>
             </Grid>
             <PasswordResult password={password} />
+            <Box mt={3} display="flex" justifyContent="center" alignItems="center">
+              <Typography variant="body2" style={{ marginRight: '8px' }}>
+                Created by Deepak Sharma
+              </Typography>
+              <a
+                href="https://www.linkedin.com/in/deepak-sharma-653a9491/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IconButton>
+                  <LinkedInIcon />
+                </IconButton>
+              </a>
+            </Box>
           </Paper>
         </Container>
       </div>
