@@ -38,7 +38,7 @@ To deploy this project run
 
 ## Demo
 
-        <img width="1421" alt="Screen Shot 2023-10-09 at 8 02 41 PM" src="https://github.com/Dixitsharmaca/passgen/assets/29827338/c6185d66-9a9c-44f6-9050-113576a7093b">
+  <img width="1421" alt="Screen Shot 2023-10-09 at 8 02 41 PM" src="https://github.com/Dixitsharmaca/passgen/assets/29827338/cf8204b1-fa76-4446-bdab-e729d6aee69b">
 
 
 
