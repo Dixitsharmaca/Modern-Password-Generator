@@ -1,70 +1,45 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Modern Password Generator - https://deepaksharmaca-passwordgen.netlify.app/
 
-## Available Scripts
+  The Modern Password Generator is a user-friendly web application designed to help users generate strong and secure passwords effortlessly. This application offers a sleek and 
+  intuitive interface with a range of customization options, making it a valuable tool for enhancing online security.
 
-In the project directory, you can run:
+  Key Features:
 
-### `npm start`
+    1 - Password Customization: Users can specify the length of their passwords, ranging from 4 to 32 characters, and choose which character types to include: uppercase letters,     
+          lowercase letters, numbers, and special symbols.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    2 - User-Provided Text: The application allows users to append their custom text to generated passwords, making it easier to remember complex passwords associated with specific   
+        accounts or services.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    3 - Password Strength Analysis: After generating a password, the application provides a visual password strength score, helping users gauge the security of their chosen password.
 
-### `npm test`
+    4 - Estimated Cracking Time: Users receive an estimate of the time it would take for an attacker to crack their generated password, offering valuable insights into its security.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    5 - Password Feedback: The application provides feedback and suggestions for improving password security, ensuring users can create robust and resilient passwords.
 
-### `npm run build`
+    6 - Clear Function: Users can easily clear all fields and start fresh with a single click, streamlining the password creation process.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    7 - Responsive Design: The application is fully responsive, ensuring a seamless experience on both desktop and mobile devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Authors
 
-### `npm run eject`
+- [@dixitsharmaca](https://www.github.com/dixitsharmaca)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To deploy this project run
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  npm run deploy
+```
 
-## Learn More
+## Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+        <img width="1421" alt="Screen Shot 2023-10-09 at 8 02 41 PM" src="https://github.com/Dixitsharmaca/passgen/assets/29827338/c6185d66-9a9c-44f6-9050-113576a7093b">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
